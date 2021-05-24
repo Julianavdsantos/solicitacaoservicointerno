@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: left;
+    background-color: black;
+    position: relative;
+    width-left:50px;
+    color: white;
+
+
+}
+h1{
+    text-align: center;
+    top: 50px;
+  }
+fieldset{
+
+
+    width: 340px;
+    height: 5px 5px;
+    left: 400px;
+    padding: 80px;
+    float: left;
+
+
+}
+
+label{
+
+    position: relative;
+    right: 206px;
+    top:30px;
+
+
+}
+
+ .campo{
+    position: relative;
+    align-items: center;
+    top:10px;
+
+ }
+
+
+ .radio{
+
+     width: 20px;
+     height: 30px;
+
+     border-radius: 50%; /*arredondar */
+     border:2px solid turquoise;
+     position: relative;
+
+ }
+ .genero{
+    position: relative;
+    left: 5px;
+    top:0px
+
+
+
+ }
+
+ #estado{
+    position: relative;
+    right: 30px;
+
+ }
+
+
+ #civil{
+    position: relative;
+   right: 100px;
+    top:0px
+
+
+
+ }
+
+
+
+input{
+    width: 90%;
+    padding: 10px 15px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    /*border: 1px solid #555;*/
+    outline: none;
+}
+
+body{
+    background-color:honeydew(199, 194, 194);
+}
+
+
+#subtitulo{
+    text-align: center;
+}
+
+.campo{
+    text-align: center;
+
+   }
+
+   .btn{
+       color:black;
+       background:gray;
+       width: 100px;
+       height: 30px;
+
+
+   }
