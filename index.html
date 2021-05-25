@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Solicitação de serviço</title>
 </head>
 <body>
@@ -12,31 +13,39 @@
 
 <fieldset id="caixa">
 <div id="entrar">
+ 
+
 <h1>Login</h1>
+
+<form name="from">
 <!------login-->
 <label>login:</label>  
-<input type="email" id="email" name="email">
+<input type="text" id="email" name="email">
 <br>
 <br>
+
 <!------senha-->
 <label>Senha:</label>
-<input type="password" id="pass" name="pass">
+<input type="password" id="pass" name="pass" autocomplete="off"><!------autocomplete="off" para nao aparecer a senha-->
 <br>
 <br>
+
 <!------botao-->
-<input type="button" value="Entrar" id="btn" onclick="entrar()">
+<input type="button" value="Entrar" id="btn" onclick="acesso(this.form)">
 <br>
 <br>
+
 </div>
+
 <!------problema com senha/cadastro-->
 <div id="externo">
 <a href="">Esqueci a senha</a>   <a href="cadas.html">Cadastrar</a>
 </div>
 
-
+</form>
 </fieldset>
 
-<script src="script.js"></script>
+<script src="acesso.js"></script>
     
 </body>
 </html>
